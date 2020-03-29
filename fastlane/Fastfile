@@ -1,0 +1,17 @@
+import "../build-scripts/xcode/commonFastfile"
+
+lane :StandardDebug do |options|
+  buildConfiguration(options)
+end
+
+lane :StandardRelease do |options|
+  buildConfiguration(options)
+end
+
+lane :EnterpriseDebug do |options|
+  buildConfiguration(options)
+end
+
+lane :EnterpriseRelease do |options|
+  buildConfiguration(options)
+end

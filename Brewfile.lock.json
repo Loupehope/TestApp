@@ -1,0 +1,64 @@
+{
+  "entries": {
+    "tap": {
+      "yonaskolb/xcodegen": {
+        "revision": "d3a3640fcbb39f2959d1f48778b5dae2ed15f5ba",
+        "options": {
+          "clone_target": "https://github.com/yonaskolb/XcodeGen.git"
+        }
+      }
+    },
+    "brew": {
+      "xcodegen": {
+        "version": "2.13.1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.13.1.catalina.bottle.tar.gz",
+              "sha256": "941158e672e7f8e90b94ce3d371bf8728a5d568e224221c5b87cccf03bc282d9"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.13.1.mojave.bottle.tar.gz",
+              "sha256": "97849ee1115ee2665b72c3423704c6ad1368df496a3cf85d4fd24780b8d02952"
+            }
+          }
+        }
+      },
+      "carthage": {
+        "version": "0.34.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/carthage-0.34.0.catalina.bottle.tar.gz",
+              "sha256": "e3498577798d41c08522e1478e125c2c07fb1c1d1b9aadc447f9d028ec6b3e83"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/carthage-0.34.0.mojave.bottle.tar.gz",
+              "sha256": "42ec7f8f09fa1701634ba5f8f162778102db7d03a114320296d3b58df8495a6a"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/carthage-0.34.0.high_sierra.bottle.tar.gz",
+              "sha256": "948811ce4d294c0deee78142c5606a6277b2436afe31f502fc4681acc62428ee"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.6",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "6c5d006cf56eb131e90995e7f7cc04dca6355a9c",
+        "CLT": "11.3.1.0.1.1576735732",
+        "Xcode": "11.3.1",
+        "macOS": "10.15.4"
+      }
+    }
+  }
+}
