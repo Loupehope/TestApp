@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "yonaskolb/xcodegen": {
-        "revision": "d3a3640fcbb39f2959d1f48778b5dae2ed15f5ba",
+        "revision": "0ba3cf588862cc48dc9f221301c5ba6fc0c639c9",
         "options": {
           "clone_target": "https://github.com/yonaskolb/XcodeGen.git"
         }
@@ -10,18 +10,26 @@
     },
     "brew": {
       "xcodegen": {
-        "version": "2.13.1",
+        "version": "2.18.0",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.18.0.big_sur.bottle.tar.gz",
+              "sha256": "954d8df6e5e76c59471482dce21df05bed22382e30d1b5cc9bfa6e024508106c"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.18.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "3943c560dbe8bae0c4e75b43920711219e4f1e1c80b8455ea488e8029d9864cb"
+            },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.13.1.catalina.bottle.tar.gz",
-              "sha256": "941158e672e7f8e90b94ce3d371bf8728a5d568e224221c5b87cccf03bc282d9"
+              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.18.0.catalina.bottle.tar.gz",
+              "sha256": "72a74170b8b457db6bce90da3daaa6520a24bef3d46d4dfbfd3599bfe45a8b5b"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.13.1.mojave.bottle.tar.gz",
-              "sha256": "97849ee1115ee2665b72c3423704c6ad1368df496a3cf85d4fd24780b8d02952"
+              "url": "https://homebrew.bintray.com/bottles/xcodegen-2.18.0.mojave.bottle.tar.gz",
+              "sha256": "1d64fc7e6f3ade59a08eb9b9105c3b1d20d8d9cb4b4de2539590733fd203e014"
             }
           }
         }
@@ -52,12 +60,12 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.6",
+        "HOMEBREW_VERSION": "2.7.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "6c5d006cf56eb131e90995e7f7cc04dca6355a9c",
-        "CLT": "11.3.1.0.1.1576735732",
-        "Xcode": "11.3.1",
-        "macOS": "10.15.4"
+        "Homebrew/homebrew-core": "bde00f3e1cba1ed8cb83db967ad6f3d347571a78",
+        "CLT": "11.0.33.8",
+        "Xcode": "12.2",
+        "macOS": "10.15.7"
       }
     }
   }
