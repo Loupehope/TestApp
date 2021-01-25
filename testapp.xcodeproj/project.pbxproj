@@ -189,7 +189,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = touchin;
 				TargetAttributes = {
 					4CEDA815243116E2009937F6 = {
@@ -350,6 +350,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -410,6 +411,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -440,17 +442,14 @@
 		};
 		4CEDA82B243116E4009937F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D84BC60B89033587ECDE53FF /* Pods-testapp.debug.xcconfig */;
+			baseConfigurationReference = 78D67F4825BEB1AC00701E3B /* testappStandardTouchinDevWithoutSSLPinningDebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				GOOGLE_SERVICE_INFO_PLIST_PATH = "/Users/vladsuhomlinov/TestApp/testapp/testapp/Resources/GoogleService-Info.plist";
 				INFOPLIST_FILE = testapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.touchin.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -459,17 +458,14 @@
 		};
 		4CEDA82C243116E4009937F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 850F47AFCB96FB78E12B45A6 /* Pods-testapp.release.xcconfig */;
+			baseConfigurationReference = 78D67F4E25BEB1AC00701E3B /* testappEnterpriseTouchinStageWithSSLPinningRelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				GOOGLE_SERVICE_INFO_PLIST_PATH = "/Users/vladsuhomlinov/TestApp/testapp/testapp/Resources/GoogleService-Info.plist";
 				INFOPLIST_FILE = testapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.touchin.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -502,6 +498,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -532,17 +529,14 @@
 		};
 		78D67F6E25BEB1F300701E3B /* AppStore */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A298113541BC1F2C4C002E5 /* Pods-testapp.appstore.xcconfig */;
+			baseConfigurationReference = 78D67F4925BEB1AC00701E3B /* testappAppStoreTouchinProdWithSSLPinningRelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				GOOGLE_SERVICE_INFO_PLIST_PATH = "/Users/vladsuhomlinov/TestApp/testapp/testapp/Resources/GoogleService-Info.plist";
 				INFOPLIST_FILE = testapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.touchin.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
