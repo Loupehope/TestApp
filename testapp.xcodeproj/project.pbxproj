@@ -33,6 +33,25 @@
 		78341F7625BEA2BE0045D4D3 /* AppStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppStore.entitlements; sourceTree = "<group>"; };
 		78341F7725BEA2BE0045D4D3 /* Enterprise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Enterprise.entitlements; sourceTree = "<group>"; };
 		78341F7825BEA2BE0045D4D3 /* Standard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Standard.entitlements; sourceTree = "<group>"; };
+		78D67F4225BEB1AC00701E3B /* testappStandardTouchinProdWithoutSSLPinningDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinProdWithoutSSLPinningDebug.xcconfig; sourceTree = "<group>"; };
+		78D67F4325BEB1AC00701E3B /* testappEnterpriseTouchinProdWithoutSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappEnterpriseTouchinProdWithoutSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F4425BEB1AC00701E3B /* testappStandardTouchinDevWithoutSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinDevWithoutSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F4525BEB1AC00701E3B /* testappStandardTouchinStageWithoutSSLPinningDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinStageWithoutSSLPinningDebug.xcconfig; sourceTree = "<group>"; };
+		78D67F4625BEB1AC00701E3B /* testappStandardTouchinProdWithSSLPinningDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinProdWithSSLPinningDebug.xcconfig; sourceTree = "<group>"; };
+		78D67F4725BEB1AC00701E3B /* testappStandardTouchinProdWithoutSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinProdWithoutSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F4825BEB1AC00701E3B /* testappStandardTouchinDevWithoutSSLPinningDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinDevWithoutSSLPinningDebug.xcconfig; sourceTree = "<group>"; };
+		78D67F4925BEB1AC00701E3B /* testappAppStoreTouchinProdWithSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappAppStoreTouchinProdWithSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F4A25BEB1AC00701E3B /* testappStandardTouchinStageWithSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinStageWithSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F4B25BEB1AC00701E3B /* testappStandardTouchinProdWithSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinProdWithSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F4C25BEB1AC00701E3B /* testappStandardTouchinStageWithoutSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinStageWithoutSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F4D25BEB1AC00701E3B /* testappStandardTouchinDevWithSSLPinningDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinDevWithSSLPinningDebug.xcconfig; sourceTree = "<group>"; };
+		78D67F4E25BEB1AC00701E3B /* testappEnterpriseTouchinStageWithSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappEnterpriseTouchinStageWithSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F4F25BEB1AC00701E3B /* testappEnterpriseTouchinDevWithSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappEnterpriseTouchinDevWithSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F5025BEB1AC00701E3B /* testappStandardTouchinStageWithSSLPinningDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinStageWithSSLPinningDebug.xcconfig; sourceTree = "<group>"; };
+		78D67F5125BEB1AC00701E3B /* testappStandardTouchinDevWithSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappStandardTouchinDevWithSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F5225BEB1AC00701E3B /* testappEnterpriseTouchinStageWithoutSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappEnterpriseTouchinStageWithoutSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F5325BEB1AC00701E3B /* testappEnterpriseTouchinProdWithSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappEnterpriseTouchinProdWithSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
+		78D67F5425BEB1AC00701E3B /* testappEnterpriseTouchinDevWithoutSSLPinningRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = testappEnterpriseTouchinDevWithoutSSLPinningRelease.xcconfig; sourceTree = "<group>"; };
 		850F47AFCB96FB78E12B45A6 /* Pods-testapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testapp.release.xcconfig"; path = "Target Support Files/Pods-testapp/Pods-testapp.release.xcconfig"; sourceTree = "<group>"; };
 		D84BC60B89033587ECDE53FF /* Pods-testapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testapp.debug.xcconfig"; path = "Target Support Files/Pods-testapp/Pods-testapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +71,7 @@
 		4CEDA80D243116E1009937F6 = {
 			isa = PBXGroup;
 			children = (
+				78D67F4125BEB1AC00701E3B /* TargetConfigurations */,
 				4CEDA818243116E2009937F6 /* testapp */,
 				4CEDA817243116E2009937F6 /* Products */,
 				600902CE440FA2AFD0C2664F /* Pods */,
@@ -101,6 +121,32 @@
 				850F47AFCB96FB78E12B45A6 /* Pods-testapp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		78D67F4125BEB1AC00701E3B /* TargetConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				78D67F4225BEB1AC00701E3B /* testappStandardTouchinProdWithoutSSLPinningDebug.xcconfig */,
+				78D67F4325BEB1AC00701E3B /* testappEnterpriseTouchinProdWithoutSSLPinningRelease.xcconfig */,
+				78D67F4425BEB1AC00701E3B /* testappStandardTouchinDevWithoutSSLPinningRelease.xcconfig */,
+				78D67F4525BEB1AC00701E3B /* testappStandardTouchinStageWithoutSSLPinningDebug.xcconfig */,
+				78D67F4625BEB1AC00701E3B /* testappStandardTouchinProdWithSSLPinningDebug.xcconfig */,
+				78D67F4725BEB1AC00701E3B /* testappStandardTouchinProdWithoutSSLPinningRelease.xcconfig */,
+				78D67F4825BEB1AC00701E3B /* testappStandardTouchinDevWithoutSSLPinningDebug.xcconfig */,
+				78D67F4925BEB1AC00701E3B /* testappAppStoreTouchinProdWithSSLPinningRelease.xcconfig */,
+				78D67F4A25BEB1AC00701E3B /* testappStandardTouchinStageWithSSLPinningRelease.xcconfig */,
+				78D67F4B25BEB1AC00701E3B /* testappStandardTouchinProdWithSSLPinningRelease.xcconfig */,
+				78D67F4C25BEB1AC00701E3B /* testappStandardTouchinStageWithoutSSLPinningRelease.xcconfig */,
+				78D67F4D25BEB1AC00701E3B /* testappStandardTouchinDevWithSSLPinningDebug.xcconfig */,
+				78D67F4E25BEB1AC00701E3B /* testappEnterpriseTouchinStageWithSSLPinningRelease.xcconfig */,
+				78D67F4F25BEB1AC00701E3B /* testappEnterpriseTouchinDevWithSSLPinningRelease.xcconfig */,
+				78D67F5025BEB1AC00701E3B /* testappStandardTouchinStageWithSSLPinningDebug.xcconfig */,
+				78D67F5125BEB1AC00701E3B /* testappStandardTouchinDevWithSSLPinningRelease.xcconfig */,
+				78D67F5225BEB1AC00701E3B /* testappEnterpriseTouchinStageWithoutSSLPinningRelease.xcconfig */,
+				78D67F5325BEB1AC00701E3B /* testappEnterpriseTouchinProdWithSSLPinningRelease.xcconfig */,
+				78D67F5425BEB1AC00701E3B /* testappEnterpriseTouchinDevWithoutSSLPinningRelease.xcconfig */,
+			);
+			path = TargetConfigurations;
 			sourceTree = "<group>";
 		};
 		C2812CB4A734C6AFB671545A /* Frameworks */ = {
