@@ -15,3 +15,8 @@ end
 lane :EnterpriseRelease do |options|
   buildConfiguration(options)
 end
+
+lane :AppStoreRelease do |options|
+  options[:uploadToAppStore] = true
+  buildConfiguration(options)
+end
