@@ -30,6 +30,9 @@
 		4CEDA82D24311BB7009937F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4CEDA83124311D39009937F6 /* FirebaseConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConfigurator.swift; sourceTree = "<group>"; };
 		51A495AFB846F07131234E07 /* libPods-testapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78341F7625BEA2BE0045D4D3 /* AppStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppStore.entitlements; sourceTree = "<group>"; };
+		78341F7725BEA2BE0045D4D3 /* Enterprise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Enterprise.entitlements; sourceTree = "<group>"; };
+		78341F7825BEA2BE0045D4D3 /* Standard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Standard.entitlements; sourceTree = "<group>"; };
 		850F47AFCB96FB78E12B45A6 /* Pods-testapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testapp.release.xcconfig"; path = "Target Support Files/Pods-testapp/Pods-testapp.release.xcconfig"; sourceTree = "<group>"; };
 		D84BC60B89033587ECDE53FF /* Pods-testapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testapp.debug.xcconfig"; path = "Target Support Files/Pods-testapp/Pods-testapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +79,9 @@
 				4CEDA824243116E4009937F6 /* LaunchScreen.storyboard */,
 				4CEDA827243116E4009937F6 /* Info.plist */,
 				4CEDA83124311D39009937F6 /* FirebaseConfigurator.swift */,
+				78341F7625BEA2BE0045D4D3 /* AppStore.entitlements */,
+				78341F7725BEA2BE0045D4D3 /* Enterprise.entitlements */,
+				78341F7825BEA2BE0045D4D3 /* Standard.entitlements */,
 			);
 			path = testapp;
 			sourceTree = "<group>";
