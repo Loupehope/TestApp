@@ -170,7 +170,6 @@
 				4CEDA812243116E2009937F6 /* Sources */,
 				4CEDA814243116E2009937F6 /* Resources */,
 				4CEDA813243116E2009937F6 /* Frameworks */,
-				4CEDA83024311C33009937F6 /* Firebase */,
 				981DCFF49B08513880601443 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -230,25 +229,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4CEDA83024311C33009937F6 /* Firebase */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(GOOGLE_SERVICE_INFO_PLIST_PATH)",
-			);
-			name = Firebase;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\" --google-service-plist ${GOOGLE_SERVICE_INFO_PLIST_PATH}\n";
-		};
 		8E38795C80638C99DA8BB464 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

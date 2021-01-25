@@ -11,7 +11,7 @@ targets:
     appstore:
       PRODUCT_BUNDLE_IDENTIFIER: "ru.touchin.testapp"
       PROVISIONING_PROFILE_SPECIFIER: "match AppStore ru.touchin.testapp"
-      CODE_SIGN_ENTITLEMENTS: "testapp/Production.entitlements"
+      CODE_SIGN_ENTITLEMENTS: "testapp/AppStore.entitlements"
 
 types:
   development:
