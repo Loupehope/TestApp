@@ -1,0 +1,26 @@
+targets:
+  testapp:
+    development:
+      PRODUCT_BUNDLE_IDENTIFIER: "ru.touchin.testapp"
+      PROVISIONING_PROFILE_SPECIFIER: "match Development ru.touchin.testapp"
+      CODE_SIGN_ENTITLEMENTS: "testapp/Standard.entitlements"
+    enterprise:
+      PRODUCT_BUNDLE_IDENTIFIER: "com.touchin.testapp"
+      PROVISIONING_PROFILE_SPECIFIER: "TestAppEnterpriseProfile"
+      CODE_SIGN_ENTITLEMENTS: "testapp/Enterprise.entitlements"
+    appstore:
+      PRODUCT_BUNDLE_IDENTIFIER: "ru.touchin.testapp"
+      PROVISIONING_PROFILE_SPECIFIER: "match AppStore ru.touchin.testapp"
+      CODE_SIGN_ENTITLEMENTS: "testapp/Production.entitlements"
+
+types:
+  development:
+    apple_id: "apple@touchin.ru"
+    team_id: "D4HA43V467"
+  enterprise:
+    apple_id: "enterpriseapple@touchin.ru"
+    team_id: "**********"
+  appstore:
+    apple_id: "apple@touchin.ru"
+    team_id: "D4HA43V467"
+    itc_team_id: "1426360"

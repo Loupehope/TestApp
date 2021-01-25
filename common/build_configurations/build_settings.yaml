@@ -1,0 +1,62 @@
+all_parameters:
+  - key: DISTRIBUTION_TYPE
+    values: [Store, Firebase, Local]
+    default_value: Firebase
+
+  - key: OBFUSCATE
+    values: [Obfuscate, NoObfuscate]
+    default_value: Obfuscate
+
+  - key: SERVER_TYPE
+    values: [Touchin]
+    default_value: Customer
+
+  - key: SERVER_ENVIRONMENT
+    values: [Dev, Stage, Prod]
+    default_value: Prod
+
+  - key: SSL_PINNING
+    values: [WithSSLPinning, WithoutSSLPinning]
+    default_value: WithoutSSLPinning
+
+  - key: BUILD_TYPE
+    values: [Debug, Release]
+    default_value: Release
+
+project_restrictions:
+
+  # Firebase -> Release
+  - when:
+    - key: DISTRIBUTION_TYPE
+      value: Firebase
+    set:
+      - key: BUILD_TYPE
+        values: [Release]
+
+  # Store -> ObfuscateWithSSLPinningReleaseTouchinProd
+  - when:
+    - key: DISTRIBUTION_TYPE
+      value: Store
+    set:
+      - key: OBFUSCATE
+        values: [Obfuscate]
+      - key: SSL_PINNING
+        values: [WithSSLPinning]
+      - key: BUILD_TYPE
+        values: [Release]
+      - key: SERVER_TYPE
+        values: [Touchin]
+      - key: SERVER_ENVIRONMENT
+        values: [Prod]
+
+ci_parameters:
+  - key: DISTRIBUTION_TYPE
+    values: [Firebase]
+    default_value: Firebase
+
+ios_parameters:
+  # Not available
+  - key: OBFUSCATE
+    values: []
+
+android_parameters: []
