@@ -1,0 +1,17 @@
+#include "Pods/Target Support Files/Pods-testapp/Pods-testapp.release.xcconfig"
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = ENTERPRISE TOUCHIN DEV WITHOUTSSLPINNING RELEASE
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+VALIDATE_PRODUCT = YES
+ENABLE_TESTABILITY = NO
+CODE_SIGN_IDENTITY = iPhone Distribution
+GCC_OPTIMIZATION_LEVEL = s
+SWIFT_OPTIMIZATION_LEVEL = -O
+SWIFT_COMPILATION_MODE = wholemodule
+PRODUCT_BUNDLE_IDENTIFIER = com.touchin.testapp
+PROVISIONING_PROFILE_SPECIFIER = TestAppEnterpriseProfile
+CODE_SIGN_ENTITLEMENTS = testapp/Enterprise.entitlements
+DEVELOPMENT_TEAM = **********
+GOOGLE_SERVICE_INFO_PLIST_PATH = testapp/Resources/Enterprise-GoogleService-Info.plist
+
+CODE_SIGN_STYLE = Manual
