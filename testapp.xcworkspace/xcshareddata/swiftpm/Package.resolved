@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LeadKit",
+        "repositoryURL": "https://github.com/TouchInstinct/LeadKit",
+        "state": {
+          "branch": null,
+          "revision": "e86dcc81f9d5cf802ea7e1941326f8c24fcb2a15",
+          "version": "1.1.1"
+        }
+      },
+      {
+        "package": "QRCodeReader",
+        "repositoryURL": "https://github.com/TouchInstinct/QRCodeReader-ios",
+        "state": {
+          "branch": "feature/card_scan",
+          "revision": "ba9d3501198aa0a1d6d369d79ca41c8d4057ab0d",
+          "version": null
+        }
+      },
+      {
+        "package": "Reg",
+        "repositoryURL": "https://github.com/yhkaplan/Reg.git",
+        "state": {
+          "branch": null,
+          "revision": "c8f1f51bc088708b3b3ecf04523b5bedd6914222",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "TableKit",
+        "repositoryURL": "https://github.com/maxsokolov/TableKit.git",
+        "state": {
+          "branch": null,
+          "revision": "8bf4840d9d0475a92352f02f368f88b74eced447",
+          "version": "2.11.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
